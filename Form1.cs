@@ -49,6 +49,7 @@ namespace SAP_Batch_GR_TR
             //string connString = "Data Source=172.18.1.49;User ID=tkcdba;Password=tkcdba;";
             ConnectionStringSettings setting = ConfigurationManager.ConnectionStrings["BarcodeEntities"];
             string connString = "";
+            
             if (setting != null)
             {
                 connString = setting.ConnectionString;
